@@ -27,6 +27,7 @@ func twoSum(nums []int, target int) []int {
 
 	}
 
+	//finding number with matching sum
 	for j := 0; j < len(nums); j++ {
 		nextMatch := target - nums[j]
 
