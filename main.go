@@ -28,6 +28,7 @@ func twoSum(nums []int, target int) []int {
 	}
 
 	//finding number with matching sum
+	//this ensure big O (n) complexity
 	for j := 0; j < len(nums); j++ {
 		nextMatch := target - nums[j]
 
